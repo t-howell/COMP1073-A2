@@ -1,7 +1,7 @@
 // File: app.js 
 // Author: Tamara Howell
-// Site: http://comp1073-a1.azurewebsites.net/
-// Description: Contains JavaScript for About Me page
+// Site: http://comp1073-a2.azurewebsites.net/
+// Description: Contains JavaScript for Project
 
 /* javascript lives here */
 "use strict";
@@ -29,9 +29,9 @@ aboutMe.textContent = aboutContent;
 
 
 // About Me Heading
-var aboutHeading = document.getElementById("aboutHeading");
+let aboutHeading = document.getElementById("aboutHeading");
 
-var headerContent = "About Me";
+let headerContent = "About Me";
 
 aboutHeading.innerHTML = headerContent;
 
@@ -138,7 +138,5 @@ let messageContent = "Your message";
 contactMessage.textContent = messageContent;
 
 break;
-
-  }
 
 })(); // end of the IIFE
