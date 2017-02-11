@@ -44,7 +44,7 @@ article#main {
 }
 
 /* Projects Page Layout */
-div#projects {
+main {
 	padding-left: 4em;
 	padding-right: 40em;
 	padding-top: 1em;
