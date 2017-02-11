@@ -16,10 +16,10 @@
   switch (document.title) {
     case "Home":
 //reference an element
-var aboutMe = document.getElementById("aboutMe");
+let aboutMe = document.getElementById("aboutMe");
 
 //create variable that contains content
-var aboutContent = "Hello! My name is Tamara. I'm a second semester web design student at Georgian College. "
+let aboutContent = "Hello! My name is Tamara. I'm a second semester web design student at Georgian College. "
 				+ "I enjoy long walks, gardening and knitting. I'm like your Nana, but decent with computers. "
 				+ "My interest in design stems from my enjoyment of helping others. I actively imagine the kinds of "
 				+ "applications and well-built websites that could be useful to people." ;
@@ -42,59 +42,59 @@ aboutHeading.innerHTML = headerContent;
 
 //Page heading
 
-var projectsHeading = document.getElementById("projectsHeading");
+let projectsHeading = document.getElementById("projectsHeading");
 
-var headingContent = "My Projects";
+let headingContent = "My Projects";
 
 projectsHeading.textContent = headingContent;
 
 //First project heading
 
-var firstHeading = document.getElementById("firstProjectHeading");
+let firstHeading = document.getElementById("firstProjectHeading");
 
-var firstHeadingContent = "Homeohealth Center";
+let firstHeadingContent = "Homeohealth Center";
 
 firstHeading.textContent = firstHeadingContent;
 
 //First project info
 
-var firstInfo = document.getElementById("firstProjectInfo");
+let firstInfo = document.getElementById("firstProjectInfo");
 
-var firstInfoContent = "As the Homeohealth Center brand was emerging, I was able to create a logo and "
+let firstInfoContent = "As the Homeohealth Center brand was emerging, I was able to create a logo and "
 					+ "original content for the owner.";
 
 firstInfo.textContent = firstInfoContent;
 
 //Second project heading
 
-var secondHeading = document.getElementById("secondProjectHeading");
+let secondHeading = document.getElementById("secondProjectHeading");
 
-var secondHeadingContent = "Iris Group";
+let secondHeadingContent = "Iris Group";
 
 secondHeading.textContent = secondHeadingContent;
 
 //Second project info
 
-var secondInfo = document.getElementById("secondProjectInfo");
+let secondInfo = document.getElementById("secondProjectInfo");
 
-var secondInfoContent = "After the Iris Group lost contact with their designer, they requested my help in "
+let secondInfoContent = "After the Iris Group lost contact with their designer, they requested my help in "
 					+ "creating new content. This involved designing brochures, mail labels and newsletters.";
 
 secondInfo.textContent = secondInfoContent;
 
 //Third project heading
 
-var thirdHeading = document.getElementById("thirdProjectHeading");
+let thirdHeading = document.getElementById("thirdProjectHeading");
 
-var thirdHeadingContent = "Freehand Doodles";
+let thirdHeadingContent = "Freehand Doodles";
 
 thirdHeading.textContent = thirdHeadingContent;
 
 //Third project info
 
-var thirdInfo = document.getElementById("thirdProjectInfo");
+let thirdInfo = document.getElementById("thirdProjectInfo");
 
-var thirdInfoContent = "My freehand illustrations may not require any technical skill, but they are "
+let thirdInfoContent = "My freehand illustrations may not require any technical skill, but they are "
 				+ "useful in creating more casual content.";
 			
 thirdInfo.textContent = thirdInfoContent;
@@ -105,9 +105,9 @@ thirdInfo.textContent = thirdInfoContent;
 
 // Form Main Heading
 
-var contactHeading = document.getElementById("contactHeading");
+let contactHeading = document.getElementById("contactHeading");
 
-var headingContent = "Let's Connect!";
+let headingContent = "Let's Connect!";
 
 contactHeading.textContent = headingContent;
 
@@ -115,25 +115,25 @@ contactHeading.textContent = headingContent;
 
 //Contact Name
 
-var contactName = document.getElementById("name");
+let contactName = document.getElementById("name");
 
-var nameHeading = "Name";
+let nameHeading = "Name";
 
 contactName.textContent = nameHeading;
 
 //Contact Email
 
-var contactEmail = document.getElementById("email");
+let contactEmail = document.getElementById("email");
 
-var emailContent = "Email Address";
+let emailContent = "Email Address";
 
 contactEmail.textContent = emailContent;
 
 //Contact Message
 
-var contactMessage = document.getElementById("message");
+let contactMessage = document.getElementById("message");
 
-var messageContent = "Your message";
+let messageContent = "Your message";
 
 contactMessage.textContent = messageContent;
 
