@@ -22,17 +22,17 @@ img#me {
 	float: right;
 }
 /* First Project Image */
-img#homeohealth {
+div > img#homeohealth {
 	height: 20%;
 	width: 20%;
 	padding-bottom: 1em;
 }
 /* Second project image */
-img#iris {
+div > img#iris {
 	padding-bottom: 1em;
 }
 /* Third Project image */
-img#unicorn {
+div > img#unicorn {
 	height: 10%;
 	width: 10%;
 }
@@ -44,7 +44,7 @@ article#main {
 }
 
 /* Projects Page Layout */
-main {
+div#projects {
 	padding-left: 4em;
 	padding-right: 40em;
 	padding-top: 1em;
