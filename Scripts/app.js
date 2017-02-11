@@ -139,4 +139,6 @@ contactMessage.textContent = messageContent;
 
 break;
 
+  }
+  
 })(); // end of the IIFE
