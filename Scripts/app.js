@@ -44,9 +44,9 @@ aboutHeading.innerHTML = headerContent;
 
 let projectsHeading = document.getElementById("projectsHeading");
 
-let headingContent = "My Projects";
+let projectHeadingContent = "My Projects";
 
-projectsHeading.textContent = headingContent;
+projectsHeading.textContent = projectHeadingContent;
 
 //First project heading
 
@@ -107,9 +107,9 @@ thirdInfo.textContent = thirdInfoContent;
 
 let contactHeading = document.getElementById("contactHeading");
 
-let headingContent = "Let's Connect!";
+let contactHeadingContent = "Let's Connect!";
 
-contactHeading.textContent = headingContent;
+contactHeading.textContent = contactHeadingContent;
 
 //------------------  Form h3's  ------------------------------
 
@@ -140,5 +140,5 @@ contactMessage.textContent = messageContent;
 break;
 
   }
-  
+
 })(); // end of the IIFE
