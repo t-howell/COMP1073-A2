@@ -147,6 +147,7 @@ let submitButton = document.getElementById("submit");
 submitButton.addEventListener("click", function(event) {
 	event.preventDefault();
 
+//Had trouble printing these, git .value idea from stack overflow
 	console.log(userName.value);
 	console.log(userEmail.value);
 	console.log(userMessage.value);
