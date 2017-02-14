@@ -1,7 +1,7 @@
 // File: app.js 
 // Author: Tamara Howell
 // Site: http://comp1073-a2.azurewebsites.net/
-// Description: Contains JavaScript for Project
+// Description: Contains JavaScript for Project 2
 
 /* javascript lives here */
 "use strict";
