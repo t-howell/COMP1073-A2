@@ -143,8 +143,10 @@ contactMessage.textContent = messageContent;
 submit.onclick = function() {
 	console.log(contactName, contactEmail, contactMessage);
 } */
-submit.addEventListener("onClick", function() {
-	print(contactName, contactEmail, contactMessage);
+var submitButton = document.getElementById("submit");
+
+submitButton.addEventListener("submit", function submitInputs() {
+	console.log(contactName, contactEmail, contactMessage);
 }, false);
 
 break;
