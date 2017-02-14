@@ -137,6 +137,13 @@ let messageContent = "Your message";
 
 contactMessage.textContent = messageContent;
 
+//Submit
+
+var submitButton = document.getElementById("submit");
+submit.onclick = function() {
+	console.log(contactName, contactEmail, contactMessage);
+}
+
 break;
 
   }

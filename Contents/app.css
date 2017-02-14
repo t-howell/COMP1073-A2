@@ -23,8 +23,8 @@ img#me {
 }
 /* First Project Image */
 div > img#homeohealth {
-	height: 20%;
-	width: 20%;
+	height: 40%;
+	width: 40%;
 	padding-bottom: 1em;
 }
 /* Second project image */
@@ -33,8 +33,8 @@ div > img#iris {
 }
 /* Third Project image */
 div > img#unicorn {
-	height: 10%;
-	width: 10%;
+	height: 30%;
+	width: 30%;
 }
 /* Styling the content for About Me page */
 article#main {
