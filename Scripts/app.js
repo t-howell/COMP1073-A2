@@ -137,17 +137,21 @@ let messageContent = "Your message";
 
 contactMessage.textContent = messageContent;
 
-//Submit
+//Submit user inputs
 
-/*var submitButton = document.getElementById("submit");
-submit.onclick = function() {
-	console.log(contactName, contactEmail, contactMessage);
-} */
-var submitButton = document.getElementById("submit");
+let userName = document.getElementById("userName");
+let userEmail = document.getElementById("userEmail");
+let userMessage = document.getElementById("userMessage");
+let submitButton = document.getElementById("submit");
 
-submitButton.addEventListener("submit", function submitInputs() {
-	console.log(contactName, contactEmail, contactMessage);
-}, false);
+submitButton.addEventListener("click", function(event) {
+	event.preventDefault();
+
+	console.log(userName.value);
+	console.log(userEmail.value);
+	console.log(userMessage.value);
+
+}); 
 
 break;
 
