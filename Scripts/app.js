@@ -139,10 +139,13 @@ contactMessage.textContent = messageContent;
 
 //Submit
 
-var submitButton = document.getElementById("submit");
+/*var submitButton = document.getElementById("submit");
 submit.onclick = function() {
 	console.log(contactName, contactEmail, contactMessage);
-}
+} */
+submit.addEventListener("onClick", function() {
+	print(contactName, contactEmail, contactMessage);
+}, false);
 
 break;
 
